@@ -1,7 +1,8 @@
 class ListNode {
     int data;
     ListNode next;
-    ListNOde(int data) {
+    
+    ListNode(int data) {
         this.data = data;
     }
 }
@@ -18,9 +19,8 @@ public ListNode findMiddleNode(ListNode head) {
         slow = slow.next;
         fast = (fast.next).next; // moves twice as fast, therefore finds the middle when traversing. 
     }
+    return ListNode;
 }
-
-
 
 // Examples:
 // 1 ==> 1
