@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TreeSort",
+            "request": "launch",
+            "mainClass": "TreeSort",
+            "projectName": "Algorithms_4ce82663"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - QuickSort",
             "request": "launch",
             "mainClass": "QuickSort",
