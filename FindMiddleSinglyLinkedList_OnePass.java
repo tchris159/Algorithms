@@ -1,3 +1,5 @@
+package Algorithms;
+
 class ListNode {
     int data;
     ListNode next;
@@ -19,7 +21,7 @@ public ListNode findMiddleNode(ListNode head) {
         slow = slow.next;
         fast = (fast.next).next; // moves twice as fast, therefore finds the middle when traversing. 
     }
-    return ListNode;
+    return slow;
 }
 
 // Examples:

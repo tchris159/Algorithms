@@ -1,3 +1,5 @@
+package Algorithms;
+
 /* Bubble sort is a comparison based algorithm that works by swapping elemeents until the greatest at
  * the end.
  * 
